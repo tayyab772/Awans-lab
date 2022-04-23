@@ -6,11 +6,13 @@
   height: 30vh;
   margin-bottom: 8rem;
 }
+
 .achievement {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .circle {
   width: 6rem;
   height: 6rem;
@@ -25,9 +27,10 @@
   margin-bottom: 2rem;
   color: black;
 }
+
 .circle::before {
   border-radius: 100%;
-  content: "";
+  content: '';
   background-image: linear-gradient(
     to right,
     red,
@@ -43,7 +46,7 @@
   z-index: -1;
   box-shadow: orange;
 }
-.achievement span:nth-child(3){
-color:orange;
 
+.achievement span:nth-child(3) {
+  color: orange;
 }

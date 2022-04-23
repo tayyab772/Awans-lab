@@ -5,6 +5,7 @@
   position: relative;
   margin-top: -15rem;
 }
+
 .f-content {
   position: absolute;
   display: flex;
@@ -21,8 +22,9 @@
   display: flex;
   gap: 2rem;
 }
+
 @media screen and (max-width: 480px) {
-    .f-content{
-        transform: scale(.5);
-    }
+  .f-content {
+    transform: scale(0.5);
+  }
 }

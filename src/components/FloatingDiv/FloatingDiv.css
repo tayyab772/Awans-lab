@@ -1,18 +1,20 @@
-.FloatingDiv{
-    justify-content: space-around;
-    display: flex;
-    background: white;
-    box-shadow: 0px 20px 24px 3px rgba(252, 166, 31, 0.45);
-    border-radius: 17px;
-    align-items: center;
-    padding: 0px 28px 0px 0px;
-    height: 4.5em;
+.FloatingDiv {
+  justify-content: space-around;
+  display: flex;
+  background: white;
+  box-shadow: 0px 20px 24px 3px rgba(252, 166, 31, 0.45);
+  border-radius: 17px;
+  align-items: center;
+  padding: 0px 28px 0px 0px;
+  height: 4.5em;
 }
-.FloatingDiv>img{
-    transform: scale(0.4);
+
+.FloatingDiv > img {
+  transform: scale(0.4);
 }
-.FloatingDiv>span{
-    font-family: sans-serif;
-    font-size: 16px;
-    color: black;
+
+.FloatingDiv > span {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: black;
 }

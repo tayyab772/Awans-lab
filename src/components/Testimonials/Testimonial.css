@@ -9,13 +9,16 @@
   gap: 2rem;
   position: relative;
 }
+
 .t-heading {
   align-self: start;
 }
+
 .t-heading > * {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .t-heading span:nth-of-type(2) {
   color: var(--orange-);
 }
@@ -24,10 +27,12 @@
   left: 38rem;
   top: 18rem;
 }
+
 .S-blur2 {
   top: 9rem;
   left: 0;
 }
+
 .testimonial {
   display: flex;
   flex-direction: column;
@@ -41,11 +46,13 @@
   box-shadow: var(--boxShadow);
   border-radius: 20px;
 }
+
 .testimonial > img {
   width: 6rem;
   height: 6rem;
   border-radius: 100%;
 }
+
 .testimonial > span {
   color: var(--gray);
 }
@@ -54,11 +61,13 @@
   width: 100%;
   height: 60%;
 }
+
 .t-wrapper .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .t-wrapper .swiper-pagination-bullet-active {
   background: var(--orange-);
 }
@@ -67,6 +76,7 @@
   .t-wrapper {
     padding: o;
   }
+
   .testimonial > img {
     width: 70px;
     height: 90px;

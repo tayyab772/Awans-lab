@@ -3,6 +3,7 @@
   height: 77vh;
   margin-top: 6rem;
 }
+
 .I-left {
   display: flex;
   position: relative;
@@ -10,38 +11,46 @@
   flex-direction: column;
   gap: 2rem;
 }
+
 .I-name {
   display: flex;
   flex-direction: column;
 }
+
 .I-name > :nth-child(1) {
   color: black;
   font-weight: bold;
   font-size: 3rem;
 }
+
 .I-name > :nth-child(2) {
   color: #fca61f;
   font-weight: bold;
   font-size: 3rem;
 }
+
 .I-name > :nth-child(3) {
   font-weight: 100;
   font-size: 14px;
   color: gray;
   margin-top: 10px;
 }
+
 .I-button {
   width: 6rem;
   height: 2rem;
 }
+
 .I-icons {
   margin-top: 3rem;
   display: flex;
   gap: 0rem;
 }
+
 .I-icons > * {
   transform: scale(0.5);
 }
+
 .I-icons > * {
   cursor: pointer;
 }
@@ -50,24 +59,29 @@
   flex: 1;
   position: relative;
 }
+
 .I-right > * {
   position: absolute;
   z-index: 1;
 }
+
 .I-right > :nth-child(1) {
   transform: scale(0.69);
   left: -15%;
   top: -9%;
 }
+
 .I-right > :nth-child(2) {
   top: -4.6rem;
   transform: scale(0.67);
   left: -3rem;
 }
+
 .I-right > :nth-child(3) {
   transform: scale(1.4);
   left: 23%;
 }
+
 .I-right > :nth-child(4) {
   transform: scale(0.8);
   top: -19%;
@@ -75,6 +89,7 @@
   border-radius: 50%;
   padding: 0;
 }
+
 .blur {
   position: absolute;
   width: 22rem;
@@ -86,24 +101,24 @@
   left: 56%;
   filter: blur(72px);
 }
+
 @media screen and (max-width: 480px) {
-  .Intro{
+  .Intro {
     flex-direction: column;
     height: 64rem;
     gap: 7rem;
   }
-  .I-right{
+
+  .I-right {
     transform: scale(0.8);
     left: -3rem;
   }
-.I-right .blur{
-  display: none;
-}
-.floating-div :nth-of-type(1){
-  top: -7rem!important;
 
+  .I-right .blur {
+    display: none;
+  }
 
-}
-
-
+  .floating-div :nth-of-type(1) {
+    top: -7rem !important;
+  }
 }

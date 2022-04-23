@@ -7,14 +7,15 @@
   padding: 2px;
   cursor: pointer;
 }
+
 .toogle > * {
   width: 1rem;
   height: 1rem;
   color: var(--orange-);
 }
-.t-button{
-border-radius: 100%;
-background: var(--orange-);
-position: absolute;
 
+.t-button {
+  border-radius: 100%;
+  background: var(--orange-);
+  position: absolute;
 }

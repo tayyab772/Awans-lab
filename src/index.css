@@ -1,5 +1,4 @@
 @font-face {
-    font-family: Gumela;
-    src: url("./fonts/GumelaRegular.otf");
-  }
-  
+  font-family: Gumela;
+  src: url('./fonts/GumelaRegular.otf');
+}
