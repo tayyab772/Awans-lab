@@ -12,10 +12,13 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_cunidi3', 'template_0zpu2v8', form.current, 'AV9CnFWHWXUutLRln')
+        emailjs.sendForm('service_cunidi3', 'template_l4e5ue8', form.current, 'AV9CnFWHWXUutLRln')
             .then((result) => {
                 console.log(result.text);
                 setDone(true); 
+                setTimeout(()=> {
+                    setDone(false);
+                }, 2000)
             }, (error) => {
                 console.log(error.text);
             });
@@ -28,7 +31,7 @@ const Contact = () => {
         <div className="contact-form">
             <div className="w-left">
                 <div className="awesome">
-                    <span style={{color: darkMode? 'white':''        }} >Get in touch</span>
+                    <span style={{color: darkMode? 'white': ''}} >Get in touch</span>
                     <span>Contact me</span>
                     <div className="blur S-blur" style={{ background: "#ABF1FF94" }}></div>
                 </div>
@@ -37,11 +40,11 @@ const Contact = () => {
 
             <div className="c-right">
                 <form ref={form} onSubmit={sendEmail}    >
-                    <input type="text" name='user_name' className='user' placeholder='Name' />
-                    <input type="email" name='user_email' className='user' placeholder='Email' />
+                    <input type="text" name='to_name' className='user' placeholder='Name' />
+                    <input type="email" name='from_name' className='user' placeholder='Email' />
                     <textarea name="message" className='user' placeholder='Message'></textarea>
                     <input type="submit" value="send" className="button" />
-                    <span>{done && "Thanks fro Contacting us!"}</span>
+                    <span>{done && "Thanks for Contacting us!"}</span>
                     <div className="blur S-blur2" style={{ background: 'var(--purple)' }}></div>
 
                 </form>
