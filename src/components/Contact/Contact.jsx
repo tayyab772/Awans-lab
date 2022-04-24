@@ -37,6 +37,7 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
 
   return (
+    // change for check
     <div className="contact-form">
       <div className="w-left">
         <div className="awesome">
